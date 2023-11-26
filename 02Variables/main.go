@@ -10,5 +10,21 @@ func main() {
 	fmt.Println(name)  // USE  prinln to print the
 
 	var number int = 9723404352
-	fmt.Println(number)
+	fmt.Println("My Mobile number is",number)
+
+	var height float32 = 5.9
+	fmt.Println("My Height is",height)
+
+	//  Other way to declare the variables
+
+	height_2 := 5.9
+	fmt.Println(height_2)
+
+	name_2 := "My Name is Shivam"
+	fmt.Println(name_2)
+
+	// other way to declare the variables
+
+	var company_name = "The Clone Ai"
+	fmt.Println(company_name)
 }
